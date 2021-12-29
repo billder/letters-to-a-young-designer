@@ -346,20 +346,28 @@ a:focus:hover {
 @media (min-width:670px) {
     .u-mobile-only {
     display: none!important;
+    }
 }
-}@media (min-width:940px) {
+@media (min-width:940px) {
     .u-tablet-only {
     display: none!important;
+    }
+    body {
+        margin: 0 20% 0 20%;
+    }
 }
-}@media (max-width:939px) {
+@media (max-width:939px) {
     .u-desktop-only {
-    max-width: 900px;
     display: none!important;
+    }
+    body {
+        margin: 0 20% 0 20%;
+    }
 }
-}@media not print {
+@media not print {
     .u-print-only {
     display: none!important;
-}
+    }
 }.sr-only {
     position: absolute;
     width: 1px;
@@ -458,7 +466,8 @@ a:focus:hover {
     background-color: transparent;
 }
 }.footer {
-    font-size: .875rem;
+    font-size: .625rem;
+    color: slategray;
     padding: 2rem 0;
     background-color: #ffffff;
 }

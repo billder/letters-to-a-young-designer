@@ -239,7 +239,7 @@ body {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
-    max-width: 1200px;
+    max-width: 980px;
 }
 .readnext {
     padding-top: 20px; 
@@ -348,7 +348,7 @@ a:focus:hover {
     display: none!important;
     }
 }
-@media (min-width:940px) {
+@media (min-width:1200px) {
     .u-tablet-only {
     display: none!important;
     }
@@ -356,12 +356,9 @@ a:focus:hover {
         margin: 0 20% 0 20%;
     }
 }
-@media (max-width:939px) {
+@media (max-width:1199px) {
     .u-desktop-only {
     display: none!important;
-    }
-    body {
-        margin: 0 20% 0 20%;
     }
 }
 @media not print {

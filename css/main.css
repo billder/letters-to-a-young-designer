@@ -168,6 +168,14 @@ li {
 pre {
     margin: 0;
 }
+ul.nobullet {
+    list-style-type: none;
+    padding: 0;
+}
+li.nobullet {
+    margin-left: 0px;
+    padding-left: 0px;
+}
 img {
     vertical-align: middle;
 }
@@ -246,6 +254,19 @@ body {
 }
 .readalso {
     padding: 0;
+}
+.readmorebox {
+    padding: 20px 0 0px 0;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.readmoreleft {
+    width: 80px;
+}
+.readmoreright {
+    width: 100%;
 }
 h1, h2, h3, h4, h5, h6 {
     line-height: 1.3;

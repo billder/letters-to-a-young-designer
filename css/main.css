@@ -1,5 +1,39 @@
+@font-face {
+    font-family: 'calendas_plusregular';
+    src: url('/fonts/calendas_plus-webfont.eot');
+    src: url('/fonts/calendas_plus-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/calendas_plus-webfont.woff2') format('woff2'),
+         url('/fonts/calendas_plus-webfont.woff') format('woff'),
+         url('/fonts/calendas_plus-webfont.ttf') format('truetype'),
+         url('/fonts/calendas_plus-webfont.svg#calendas_plusregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'calendas_plusitalic';
+    src: url('/fonts/calendas_plus_italic-webfont.eot');
+    src: url('/fonts/calendas_plus_italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/calendas_plus_italic-webfont.woff2') format('woff2'),
+         url('/fonts/calendas_plus_italic-webfont.woff') format('woff'),
+         url('/fonts/calendas_plus_italic-webfont.ttf') format('truetype'),
+         url('/fonts/calendas_plus_italic-webfont.svg#calendas_plusitalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'calendas_plusbold';
+    src: url('/fonts/calendas_plus_bold-webfont.eot');
+    src: url('/fonts/calendas_plus_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/calendas_plus_bold-webfont.woff2') format('woff2'),
+         url('/fonts/calendas_plus_bold-webfont.woff') format('woff'),
+         url('/fonts/calendas_plus_bold-webfont.ttf') format('truetype'),
+         url('/fonts/calendas_plus_bold-webfont.svg#calendas_plusbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
 html {
-    font-family: sans-serif;
+    font-family: calendas_plusregular;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%}
 body {
@@ -146,7 +180,8 @@ html {
     -webkit-tap-highlight-color: transparent;
 }
 body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-family: calendas_plusregular;
+    /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; */
     font-size: 1rem;
     line-height: 1.625;
     color: #373a3c;

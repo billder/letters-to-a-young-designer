@@ -33,7 +33,7 @@
 
 }
 html {
-    font-family: calendas_plusregular;
+    font-family: sans-serif;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%}
 body {
@@ -180,8 +180,8 @@ html {
     -webkit-tap-highlight-color: transparent;
 }
 body {
-    font-family: calendas_plusregular;
-    /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; */
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-family: calendas_plusregular, calendas_plusbold, calendas_plusitalic;
     font-size: 1rem;
     line-height: 1.625;
     color: #373a3c;
@@ -197,6 +197,7 @@ dl, ol, ul {
     list-style-type: '- ';
 }
 li {
+    font-size: 1.1rem;
     margin-left: 5px;
     padding-left: 5px;
 }
@@ -330,23 +331,25 @@ h1, h2, h3, h4, h5, h6 {
 }
 h1 {
     padding: 0px 0 12px 0;
-}
-h2 {
-    padding: 0px 0 10px 0;
-}
-h2, h3, h4, h5, h6 {
-    margin: 0;
-}
-h1 {
+    font-family: Roboto;
     font-size: 2.5rem;
     font-weight: 800;
     text-rendering: optimizeLegibility;
 }
 h2 {
-    font-size: 1.5rem;
+    padding: 20px;
+    margin: 0px;
+    border: 1px;
+    border-color: slategrey;
+    border-style: solid;
+    font-size: 1.25rem;
     font-weight: 800;
 }
+h3, h4, h5, h6 {
+    margin: 0;
+}
 p {
+    font-size: 1.1rem;
     margin: 20px 0 0 0;
 }
 
@@ -355,6 +358,7 @@ a:link, a:visited {
     text-decoration: none;
 }
 .bolder {
+    font-family: Roboto;
     font-weight: 800;
     padding-right: 8px;
 }

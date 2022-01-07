@@ -214,6 +214,7 @@ li.nobullet {
     margin-left: 0px;
     padding-top: 0px;
     padding-left: 0px;
+    font-size: 1rem;
 }
 img {
     vertical-align: middle;
@@ -306,9 +307,11 @@ body {
 }
 .readmoreleft {
     width: 80px;
+    font-size: 1rem;
 }
 .readmoreright {
     width: 100%;
+    font-size: 1rem;
 }
 .createdbox, .updatedbox {
     padding: 24px 0 0px 0;
@@ -344,10 +347,11 @@ h2 {
     padding: 20px;
     margin: 0px;
     border: 1px;
-    border-color: slategrey;
+    border-color: #ccc;
     border-style: solid;
+    font-family: Lato;
     font-size: 1.25rem;
-    /* font-weight: 800; */
+    font-weight: 400;
     text-rendering: optimizeLegibility;
 }
 h3, h4, h5, h6 {
@@ -363,9 +367,13 @@ a:link, a:visited {
     text-decoration: none;
 }
 .bolder {
-    font-family: Roboto;
+    font-family: Lato;
     font-weight: 800;
     padding-right: 8px;
+}
+.navlink {
+    /* font-family: Lato; */
+    font-weight: 400;
 }
 .lead {
     font-size: 1.5rem;
@@ -440,7 +448,7 @@ a:focus:hover {
     display: none!important;
     }
     body {
-        margin: 0 20% 0 20%;
+        margin: 0 30% 0 30%;
     }
 }
 @media (max-width:1199px) {

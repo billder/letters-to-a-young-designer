@@ -558,9 +558,9 @@ a:focus:hover {
     background-color: transparent;
 }
 }.footer {
-    font-size: .625rem;
+    font-size: .875rem;
     color: slategray;
-    padding: 2rem 0;
+    padding: 1rem 0;
     background-color: #ffffff;
 }
 .footer__inner {

@@ -32,7 +32,7 @@
     font-style: normal;
 }
 html {
-    font-family: calendas_plusregular, calendas_plusbold, calendas_plusitalic, sans-serif;
+    font-family: sans-serif;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%}
 body {
@@ -294,16 +294,11 @@ body {
     max-width: 980px;
 }
 .highlight {
-    font-family: lato;
-    /* font-style: italic; */
+    font-family: minion-3, serif;
+    font-style: italic;
     font-size: 1.5rem;
-    font-weight: 600;
-    /* background-color: #eee; */
-    border: #999;
-    border-width: 1px;
-    border-style: solid;
-    padding: 1rem 3%;
-    margin: 1.5rem 0;
+    background-color: #ddd;
+    padding: .75rem 20px;
 }
 .readnext {
     padding-top: 20px; 
@@ -353,14 +348,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 h1 {
     padding: 0px 0 2rem 0;
-    /* font-family: minion-3, serif; */
+    font-family: minion-3, serif;
     /* font-style: normal; */
-    /* font-style: italic; */
-    /* font-weight: 400; */
-    font-family: Lato;
+    font-style: italic;
+    font-weight: 400;
+    /* font-family: Lato; */
     font-size: 3rem;
-    font-variant: black;
-    font-weight: 700;
+    /* font-variant: black; */
+    /* font-weight: 700; */
     /* text-rendering: optimizeLegibility; */
 }
 h2 {
@@ -378,10 +373,10 @@ h3, h4, h5, h6 {
     margin: 0;
 }
 p {
-    /* font-family: minion-3, serif; */
+    font-family: minion-3, serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     margin: 20px 0 0 0;
 }
 
@@ -390,20 +385,16 @@ a:link, a:visited {
     text-decoration: none;
 }
 .bolder {
-    /* font-family: minion-3, serif; */
-    font-family: Lato;
-    /* font-weight: 600; */
-    font-weight: 800;
-    font-size: .9rem;
+    font-family: minion-3, serif;
+    /* font-family: Lato; */
+    font-weight: 600;
+    /* font-weight: 800; */
     padding-right: 8px;
-    /* font-variant: small-caps; */
+    font-variant: small-caps;
 }
 .navlink {
     /* font-family: Lato; */
     font-weight: 400;
-}
-.toputilnav {
-    padding-left: 40px;
 }
 .lead {
     font-size: 1.5rem;
@@ -477,9 +468,9 @@ a:focus:hover {
     .u-tablet-only {
     display: none!important;
     }
-    /* body {
+    body {
         margin: 0 30% 0 30%;
-    } */
+    }
 }
 @media (max-width:1199px) {
     .u-desktop-only {
